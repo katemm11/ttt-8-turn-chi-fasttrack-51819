@@ -7,9 +7,3 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 turn(board)
-user_input = gets.strip
-
-indexed_input = input_to_index(user_input)
-valid_move?(board, indexed_input)
-board[indexed_input] = "X"
-display_board(board)
